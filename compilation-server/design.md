@@ -144,6 +144,19 @@ Although no formal requirements have been made for this activity, the following 
 
 
 Client-Server
+  - Show listen/accept/bind protocol
+  - Connected vs Unconnected model
+    - Connected:
+      - no state needs to be maintained
+	  + when there is a lot of communication
+	  - ties up resources (if many connections used)
+	- Unconnected:
+	  - Initial connection, each side stores states
+	  - requires server interface on both sides
+	  + when there is not a lot of communication
+	  + efficient use of resources
+	  - more complicated communication
+
 File Transfer
 - Protocol Message
 	- Header
@@ -314,7 +327,7 @@ Dynamic means the priority is time dependent, can change over time,
 
 Once selected, a service provider is searched for.
 If matching service provider found:
- - if not available, place back 
+ - if not available, place back
 If none found, error message sent back
 
 Because some tasks are dynamic, the Task Allocator must be queried every time a new task slot becomes available.
@@ -343,7 +356,7 @@ Based on:
  - OS Name and Version
  - Compiler name and version?
  - iCAS version
- - 
+ -
 
 
 #### Compile Service

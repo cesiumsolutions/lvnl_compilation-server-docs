@@ -6,6 +6,7 @@
 2. Architectural Design
   a High level
   b Deep dive
+  c Advanced topics
 3. System Administration
 4. End User
 
@@ -77,6 +78,7 @@ User:
 - Task: Generalization of any unit of work to be executed, consisting of:
   - Inputs: e.g. source files
   - Artifacts: The desired output to be produced, e.g. object files
+    ** Lists also expected generated artifacts
   - Command: What is needed to produce Artifacts from Inputs
     - Could also include options, flags, etc
     - Assumption: command line(Linux at the moment) interface
@@ -109,6 +111,14 @@ User:
 - ICAS Versions
   - Read from CONFIG files
   - based on 'lsicas' command
+
+
+Advanced Terms:
+
+- Service Discovery
+- Calback/Notification
+- Generalization via factory pattern
+
 
 ## Architectural Design : High Level Components
 
@@ -163,6 +173,9 @@ User:
 
 ## Architectural Design : Backend : Cache
 
+
+(Diagram: PRES: AD : 2 : Backend : Cache )
+
 - Stores Artifacts and (optionally) Byproducts
 - Identified by Hash
   - MD5SUM based on:
@@ -178,8 +191,17 @@ User:
     - stderr.txt - Capture of stderr messages during compilation
     - stats.txt  - Associated statistics during original compilation
 
+- Database
+  - Maintains association between hash and filename
+  - SQLite(?)
+
+- Single instance (singleton)
+
+- Currently not implemented as service (component of Gateway)
+  - could be split out in future
 
 
+## Architectural Design : Backend : Compilation
 
 
 ## System Administration
