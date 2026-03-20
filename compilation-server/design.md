@@ -166,7 +166,7 @@ File Transfer
 
 ### System Overview
 
-![](S:\sandbox\lvnl\docs\compilation-server\assets\System Overview.png)
+![System Overview](assets\system_overview.png)
 
 #### Compilation Client
 
@@ -393,3 +393,6 @@ Distributed Services
 Optimization
 
 Final Configuration
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjExNjkzMTQxXX0=
+-->
