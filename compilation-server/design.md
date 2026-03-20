@@ -166,8 +166,6 @@ File Transfer
 
 ### System Overview
 
-![System Overview](./compilation-server/assets/system_overview.png)
-
 ![System Overview](
 https://raw.githubusercontent.com/cesiumsolutions/lvnl_compilation-server-docs/29e714edcf37a38b9a9a09bf4bdd126fb4206dbf/compilation-server/assets/system_overview.png)
 
@@ -398,6 +396,6 @@ Optimization
 
 Final Configuration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDA2MzA3MCwxODI0OTY5NzcsLTE5Nz
-c0NjUwMDAsMjExNjkzMTQxXX0=
+eyJoaXN0b3J5IjpbLTcyOTY0MTE2MSwxMTgwMDYzMDcwLDE4Mj
+Q5Njk3NywtMTk3NzQ2NTAwMCwyMTE2OTMxNDFdfQ==
 -->
